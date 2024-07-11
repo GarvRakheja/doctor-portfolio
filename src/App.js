@@ -1,5 +1,7 @@
 import React from 'react'
 import About from './components/About/About'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 import Home from './components/Home/Home'
 import MyWork from './components/myWork/MyWork'
 import Navbar from './components/navbar/Navbar'
@@ -13,6 +15,8 @@ const App = () => {
       <About/>
       <Services/>
       <MyWork/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
