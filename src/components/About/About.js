@@ -4,7 +4,7 @@ import profile_img from "../../../src/assests/images/doctorprofile.jpg"
 
 const About = () => {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className='about-title'>
                 <h1>About me</h1>
                 <img src='' alt='' />
@@ -15,24 +15,24 @@ const About = () => {
                 </div>
                 <div className='about-right'>
                     <div className='about-para'>
-                        <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-                        <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+                        <p>Spectra Dental Care is a state of art dental clinic that offers services for any dental issue such as pain, sensitivity, yellowishness, staining, malalignment, missing teeth and so on. We offer a wide range of services from RCTs and caps to veneers, implants, braces and aligners. </p>
+                        <p>We dentists at Spectra Dental Care practice efficient and high-quality dentistry at affordable prices so as to cater most population. Equipped with the best armamentarium.</p>
                     </div>
                     <div className='about-skills'>
                         <div className='about-skill'>
-                            <p>HTML & CSS</p>
+                            <p>General Medicine</p>
                             <hr style={{ width: "50%" }} />
                         </div>
                         <div className='about-skill'>
-                            <p>React js</p>
+                            <p>Pediatrics</p>
                             <hr style={{ width: "70%" }} />
                         </div>
                         <div className='about-skill'>
-                            <p>javascript</p>
+                            <p>Cardiology</p>
                             <hr style={{ width: "60%" }} />
                         </div>
                         <div className='about-skill'>
-                            <p>Next js</p>
+                            <p>Surgery</p>
                             <hr style={{ width: "50%" }} />
                         </div>
                     </div>
@@ -45,13 +45,13 @@ const About = () => {
                 </div>
                 <hr/>
                 <div  className='about-achivement'>
-                    <h1>90+</h1>
-                    <p>PROJECTS COMPLETED</p>
+                    <h1>500+</h1>
+                    <p>Patient</p>
                 </div>
                 <hr/>
                 <div  className='about-achivement'>
-                    <h1>60+</h1>
-                    <p>HAPPY CLIENTS</p>
+                    <h1>300+</h1>
+                    <p>Happy Patient</p>
                 </div>
             </div>
         </div>

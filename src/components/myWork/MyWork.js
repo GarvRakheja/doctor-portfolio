@@ -5,7 +5,7 @@ import arror_icon from "../../../src/assests/images/right-arrow.png"
 
 const MyWork = () => {
     return (
-        <div className='mywork'>
+        <div id='portfolio' className='mywork'>
             <div className='mywork-title'>
                 <h1>My latest work</h1>
                 <img src='' alt='' />

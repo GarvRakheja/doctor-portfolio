@@ -1,19 +1,20 @@
 import React from 'react'
 import "./Home.css"
 import profile_img from "../../../src/assests/images/doctorprofile.jpg"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Home = () => {
     return (
-        <div className='home'>
-            <img src={profile_img} alt='' />
-            <h1><span>I'm Alex Bennett,</span> frontend developer based in USA.</h1>
-            <p>I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
+        <div id='home' className='home'>
+            <img src={profile_img} alt='' className='profileImg' />
+            <h1><span>I'm Alex Bennett,</span> doctor based in USA.</h1>
+            <p>Dental Care is a state of art dental clinic that offers services for any dental issue such as pain sensitivity, yellowishness, staining, malalignment,.</p>
             <div className='home-action'>
                 <div className='home-connect'>
-                    Connect with me
+                    <AnchorLink className='anchor-link' offset={50} href="#contact">Get Appointment</AnchorLink>
                 </div>
                 <div className='home-resume'>
-                    My resume
+                    Discover more
                 </div>
             </div>
         </div>

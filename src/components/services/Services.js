@@ -5,7 +5,7 @@ import arrow_icon from "../../../src/assests/images/right-arrow.png"
 
 const Services = () => {
     return (
-        <div className='services'>
+        <div id='services' className='services'>
             <div className='services-title'>
                 <h1>My Services</h1>
                 <img src='' alt='' />
